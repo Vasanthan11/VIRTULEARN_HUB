@@ -1,0 +1,29 @@
+/* FONTS FOR WEBPAGE [Roboto, Jost] */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* Root Element Declaration */
+
+:root {
+    /* Font Family */
+    --primary-Font: "Roboto", sans-serif;
+    --secondary_Font: "Jost", sans-serif;
+
+    /* Colours */
+    --Primary-Colour_Green: #006667;
+    --Secondary-Colour_Sandal: #FFC893;
+    --Tertiary-Colour_LightGreen: #CCEAE3;
+    --White-Colour: #ffffff;
+    --Black_Colour: #000000;
+    --Ash_Colour: #ACACAC;
+
+    /* Font Size */
+    --Least-Font-Size: 12px;
+}

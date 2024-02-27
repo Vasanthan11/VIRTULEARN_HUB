@@ -1,0 +1,28 @@
+.aboveNavCont {
+    height: 48px;
+    width: 100%;
+    background-color: var(--Secondary-Colour_Sandal);
+    color: var(--Black-Colour);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: var(--Least-Font-Size);
+}
+
+p {
+    margin-bottom: 0% !important;
+}
+
+.abovenavspan {
+    padding-left: 8px;
+    color: var(--Primary-Colour_Green);
+    cursor: pointer;
+}
+
+/* Media Query */
+
+@media (max-width: 767px) {
+    .aboveNavCont {
+        display: none;
+    }
+}
